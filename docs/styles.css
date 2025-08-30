@@ -1,0 +1,65 @@
+body {
+    padding-top: 76px; /* Account for fixed navbar */
+}
+
+.navbar-brand .logo-text {
+    background-color: #dc3545;
+    color: white;
+    padding: 8px 12px;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 4px;
+    font-size: 14px;
+
+    vertical-align: middle;
+    /* height: 100%; */
+}
+
+.hero-section {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 80px 0;
+}
+
+.content-section {
+    padding: 60px 0;
+}
+
+footer {
+    background-color: #343a40;
+    color: #adb5bd;
+    padding: 30px 0 15px 0;
+    margin-top: 60px;
+}
+
+footer h5, footer h6 {
+    color: white;
+}
+
+.footer-links a {
+    color: #adb5bd;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.footer-links a:hover {
+    color: white;
+}
+
+/* Nested list styling */
+.nested-list {
+    margin-bottom: 2rem;
+}
+
+.nested-list > li {
+    margin-bottom: 0.5rem;
+}
+
+.nested-list ul {
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+}
+
+.nested-list ul li {
+    margin-bottom: 0.25rem;
+}
